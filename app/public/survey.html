@@ -13,7 +13,7 @@
 
   <div class="container">
   	<div class="jumbotron">
-  		<h1>Friend Finder</h1>
+  		<h1>Survey Questions</h1>
       	<hr>
       	<h3>Fill out this quick survey!</h3>
   	</div>
@@ -29,13 +29,13 @@
             	<form method="POST" role="form">
 
 	            	<div class="form-group">
-		                <label for="name">Name (Required)</label>
-		                <input type="text" class="form-control" id="name">
+		                <label for="matchName">Name (Required)</label>
+		                <input required type="text" name="" class="form-control" id="name">
 	              	</div>
 
               		<div class="form-group">
-		                <label for="picture">Link to Photo Image (Required)</label>
-		                <input type="text" class="form-control" id="picture">
+		                <label for="matchImg">Link to Photo Image (Required)</label>
+		                <input required type="text" name="" class="form-control" id="photo">
 		            </div>
 		        </form>
             </div>
@@ -53,156 +53,202 @@
     			<form method="POST" role="form">
 
             <div class="form-group">
-              	<label for="sel1">Question 1: I get angry easily.</label>
-              		<select class="form-control" id="quest1">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 1: I get angry easily.</label>
+              		<select class="form-control" id="quest1" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 2: I like being the leader.</label>
-              		<select class="form-control" id="quest2">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 2: I like being the leader.</label>
+              		<select class="form-control" id="quest2" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 3: I like going to large parties.</label>
-              		<select class="form-control" id="quest3">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 3: I like going to large parties.</label>
+              		<select class="form-control" id="quest3" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 4: I experience my emotions intensely.</label>
-              		<select class="form-control" id="quest4">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 4: I experience my emotions intensely.</label>
+              		<select class="form-control" id="quest4" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 5: I enjoy being in the outdoors.</label>
-              		<select class="form-control" id="quest5">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 5: I enjoy being in the outdoors.</label>
+              		<select class="form-control" id="quest5" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 6: I want everything to be "just right".</label>
-              		<select class="form-control" id="quest6">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 6: I want everything to be "just right".</label>
+              		<select class="form-control" id="quest6" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 7: I listen before I act.</label>
-              		<select class="form-control" id="quest7">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 7: I listen before I act.</label>
+              		<select class="form-control" id="quest7" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 8: I am a very optimistic person.</label>
-              		<select class="form-control" id="quest8">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 8: I am a very optimistic person.</label>
+              		<select class="form-control" id="quest8" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 9: I would rather play video games than sports.</label>
-              		<select class="form-control" id="quest9">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 9: I would rather play video games than sports.</label>
+              		<select class="form-control" id="quest9" required>
+              			<option value="">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
 			</div>
 
 			<div class="form-group">
-              	<label for="sel1">Question 10: I make friends easily.</label>
-              		<select class="form-control" id="quest10">
-              			<option>Select an Option</option>
-					    <option>1</option>
-					    <option>2</option>
-					    <option>3</option>
-					    <option>4</option>
-					    <option>5</option>
+              	<label>Question 10: I make friends easily.</label>
+              		<select required class="form-control" id="quest10">
+              			<option value=" ">Select an Option</option>
+					    <option value="1">1</option>
+					    <option value="2">2</option>
+					    <option value="3">3</option>
+					    <option value="4">4</option>
+					    <option value="5">5</option>
 				  	</select>
+				</form>
 			</div>
 				<br>
-		        <div class="text-right">
-		            <button type="submit" class="btn btn-warning btn-md" id="add-btn"><span class="glyphicon glyphicon-user"></span> Find my new friend!</button>
+		        
+		        <button type="submit" class="btn btn-warning btn-lg btn-block" id="submit"><span class="glyphicon glyphicon-user"></span> Find my new friend!</button>
+
+		        <hr>
+
+		        <footer class="footer">
+		           	<div class="container">
+		           		<p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/JamesTown-625/friendFinder">GitHub Repo</a></p>
+		            </div>
+		        </footer>
+
+		        <div id="resultsModal" class="modal fade" role="dialog">
+		        	<div class="modal-dialog">
+
+		        		<div class="modal-content">
+		        			<div class="modal-header">
+		        				<button type="button" class="close" data-dismiss="modal">&times;</button>
+		        				<h2 class="modal-title"><strong>Best Match</strong></h2>
+		        			</div>
+		        			<div class="modal-body">
+		        				<h2 id="matchName"></h2>
+		        				<img id="matchImg" src="https://placeimg.com/640/480/tech" alt="">
+		        			</div>
+		        			<div class="modal-footer">
+		        				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+		        			</div>
+		        		</div>
+
+		        	</div>
 		        </div>
-		    </form>
-	          	</div>
-	        </div>
-		</div>
-	</div>
-</div>
 
-  <script type="text/javascript">
-    // Grab information from the form on button click and create a variable with it. 
-    $("#add-btn").on("click", function(event) {
-      event.preventDefault();
-      var newFriend = {
-        name: $("#name").val().trim(),
-        picture: $("#picture").val().trim(),
-        scores: []
-    };
+<script type="text/javascript"> 
+  
+      // Grab information from the form on button click and create a variable with it. 
+    $("#submit").on("click", function() {
 
-    for (var i = 1; i <= 10; i++) {
-    	newFriend.scores.push($("#quest"+i+" :selected").text());
-    };
-    console.log(newFriend);
+    	function validateForm() {
+    		var isValid = true;
+    		$(".form-control").each(function() {
+    			if ($(this).val() === "") {
+    				isValid = false;
+    			}
+    		});
+ 
+	    	return isValid;
+    	}
 
-      // POST the information in the variable from the form to the saved location.
-      $.post("/api/friends", newFriend)
-      .done(function(data) {
-        console.log(data);
-        alert("finding new friends...");
-      });
+    	if (validateForm()) {
+    		var userData = {
+    			name: $("#name").val(),
+    			photo: $("#photo").val(),
+    			scores: [
+    			$("#quest1").val(),
+    			$("#quest2").val(),
+    			$("#quest3").val(),
+    			$("#quest4").val(),
+    			$("#quest5").val(),
+    			$("#quest6").val(),
+    			$("#quest7").val(),
+    			$("#quest8").val(),
+    			$("#quest9").val(),
+    			$("#quest10").val()
+    			]
+    		};
+
+    		var currentURL = window.location.origin;
+
+    		$.post(currentURL + "/api/friends", userData, function(data) {
+
+    			$("#matchName").text(data.name);
+    			$("#matchImg").attr("src", data.photo);
+
+    			$("#resultsModal").modal("toggle");
+    			alert("Wait just a moment while we work on finding your new best friend!");
+    		});
+    	}
     });
   </script>
 
