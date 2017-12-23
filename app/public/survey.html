@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Finder Survey</title>
+	<!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  
+</head>
+<body>
+
+  <div class="container">
+  	<div class="jumbotron">
+  		<h1>Friend Finder</h1>
+      	<hr>
+      	<h3>Fill out this quick survey!</h3>
+  	</div>
+
+<div class="row">
+	<div class="col-lg-12">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+            	<h3 class="panel-title"><strong>About You:</strong></h3>
+          	</div>
+          	
+          	<div class="panel-body">
+            	<form method="POST" role="form">
+
+	            	<div class="form-group">
+		                <label for="name">Name (Required)</label>
+		                <input type="text" class="form-control" id="name">
+	              	</div>
+
+              		<div class="form-group">
+		                <label for="picture">Link to Photo Image (Required)</label>
+		                <input type="text" class="form-control" id="picture">
+		            </div>
+		        </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+  	<div class="col-lg-12">
+    	<div class="panel panel-default">
+    		<div class="panel-heading">
+    			<h3 class="panel-title"><strong>When answering the survey 1 = strongly DISAGREE and 5 = strongly AGREE.</strong></h3>
+    		</div>
+    		<div class="panel-body">
+    			<form method="POST" role="form">
+
+            <div class="form-group">
+              	<label for="sel1">Question 1: I get angry easily.</label>
+              		<select class="form-control" id="quest1">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 2: I like being the leader.</label>
+              		<select class="form-control" id="quest2">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 3: I like going to large parties.</label>
+              		<select class="form-control" id="quest3">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 4: I experience my emotions intensely.</label>
+              		<select class="form-control" id="quest4">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 5: I enjoy being in the outdoors.</label>
+              		<select class="form-control" id="quest5">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 6: I want everything to be "just right".</label>
+              		<select class="form-control" id="quest6">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 7: I listen before I act.</label>
+              		<select class="form-control" id="quest7">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 8: I am a very optimistic person.</label>
+              		<select class="form-control" id="quest8">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 9: I would rather play video games than sports.</label>
+              		<select class="form-control" id="quest9">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+
+			<div class="form-group">
+              	<label for="sel1">Question 10: I make friends easily.</label>
+              		<select class="form-control" id="quest10">
+              			<option>Select an Option</option>
+					    <option>1</option>
+					    <option>2</option>
+					    <option>3</option>
+					    <option>4</option>
+					    <option>5</option>
+				  	</select>
+			</div>
+				<br>
+		        <div class="text-right">
+		            <button type="submit" class="btn btn-warning btn-md" id="add-btn"><span class="glyphicon glyphicon-user"></span> Find my new friend!</button>
+		        </div>
+		    </form>
+	          	</div>
+	        </div>
+		</div>
+	</div>
+</div>
+
+  <script type="text/javascript">
+    // Grab information from the form on button click and create a variable with it. 
+    $("#add-btn").on("click", function(event) {
+      event.preventDefault();
+      var newFriend = {
+        name: $("#name").val().trim(),
+        picture: $("#picture").val().trim(),
+        scores: []
+    };
+
+    for (var i = 1; i <= 10; i++) {
+    	newFriend.scores.push($("#quest"+i+" :selected").text());
+    };
+    console.log(newFriend);
+
+      // POST the information in the variable from the form to the saved location.
+      $.post("/api/friends", newFriend)
+      .done(function(data) {
+        console.log(data);
+        alert("finding new friends...");
+      });
+    });
+  </script>
+
+</body>
+</html>
